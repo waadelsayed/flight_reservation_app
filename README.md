@@ -1,20 +1,41 @@
 # Flight Reservation App
 
-A simple desktop application built with **Python (Tkinter + SQLite)** that allows users to manage flight reservations.
+A desktop application built with Python, Tkinter, and SQLite that allows users to manage flight reservations through a simple graphical interface.
 
 ## Features
 - Book a new flight reservation
 - View all reservations
 - Edit existing reservations
 - Delete reservations
-- Data is stored in SQLite database (`flights.db`)
+- Store reservation data using SQLite database (`flights.db`)
 
-## Run Locally
+## Technologies Used
+- Python
+- Tkinter (GUI)
+- SQLite
 
-1. Install [Python 3](https://www.python.org/downloads/).
-2. Clone this repository or download the project folder.
-   ```bash
-   git clone https://github.com/waadelsayed/flight_reservation_app.git
-   cd flight_reservation_app
+## Installation & Run
 
+1. Install Python 3
+2. Clone the repository
 
+```bash
+git clone https://github.com/waadelsayed/flight_reservation_app.git
+cd flight_reservation_app
+```
+
+3. Run the application
+
+```bash
+python main.py
+```
+
+## Learning Outcomes
+This project helped me practice:
+- GUI development with Tkinter
+- Database integration using SQLite
+- CRUD operations
+- Python application structure
+
+## Author
+Waad Elsayed
